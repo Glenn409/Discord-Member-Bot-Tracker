@@ -1,7 +1,6 @@
 {
   "name": "membercountbot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "discord.js": "^11.3.0"
@@ -19,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/Glenn409/Discord-Member-Bot-Tracker/issues"
   },
-  "homepage": "https://github.com/Glenn409/Discord-Member-Bot-Tracker#readme"
+  "homepage": "https://github.com/Glenn409/Discord-Member-Bot-Tracker#readme",
+  "description": ""
 }
