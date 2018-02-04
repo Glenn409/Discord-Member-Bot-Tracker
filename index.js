@@ -6,16 +6,17 @@ client.on('message',message =>{
   if(message.content.startsWith('!startCount')){
     let count = message.guild.memberCount;
     console.log('Starting countdown Bot! Currently '+ count +' Members!');
-    client.user.setActivity(count + ' Members');
+    client.user.setActivity(count + ' Members Total');
   }
 })
 
 client.on('guildMemberAdd',guildMemberAdd=> {
-
-    console.log(guildMemberAdd.guild.memberCount);
+    let playersAdded = 1;
+    //console.log(guildMemberAdd.guild.memberCount);
     let count = guildMemberAdd.guild.memberCount;
-    client.user.setActivity(count + ' Members');
-
+    client.user.setActivity(count + ' Members Total');
+    console.log(playersAdded + ' new Users joined the Discord during this Bot Session!');
+    playersAdded = playersAdded + 1;
 });
 
 
@@ -27,5 +28,4 @@ Gmembers.forEach(m => {
 client.on('ready', () => {
   console.log('MemberCount Bot is ready!');
 });
-
-client.login('NDA2OTQ3NjcyMzc3Nzg2Mzc4.DU6ZZg.44dGajzk3s0abcvomghuN1AJkaU');
+client.login(process.env.BOT_TOKEN);

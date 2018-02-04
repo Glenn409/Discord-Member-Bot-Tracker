@@ -1,0 +1,23 @@
+{
+  "name": "membercountbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glenn409/Discord-Member-Bot-Tracker.git"
+  },
+  "author": "chrisg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Glenn409/Discord-Member-Bot-Tracker/issues"
+  },
+  "homepage": "https://github.com/Glenn409/Discord-Member-Bot-Tracker#readme"
+}
